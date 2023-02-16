@@ -11,6 +11,7 @@ import { reducers, metaReducers } from "./shared/state";
 import { AuthModule } from "./auth";
 import { BooksModule } from "./books";
 import { AppComponent } from "./app.component";
+import {BooksApiEffects} from "./books/books-api.effects";
 
 @NgModule({
   declarations: [AppComponent],
